@@ -1,0 +1,74 @@
+a:link,a:visited{
+  color: DarkGrey;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.underline{
+  text-decoration: 1px solid underline red;
+}
+.nav-item:hover{
+  text-decoration: 1px solid underline red;
+}
+.head1{
+  font-family:;
+}
+.image{
+  height: 400px;
+  width: 900px;
+}
+.image-2{
+  height: 500px;
+  width: 800px
+}
+.div1{
+  height: 75px;
+  width: 75px;
+}
+.wdiv:hover{
+  transform: scale(1.1,1.1);
+  transition: 1.2s;
+}
+ .backimg{
+   height: 150px;
+  filter: opacity(50%);
+}
+.menu{
+  margin-left: 20px;
+  font-size: 20px;
+  text-decoration: 2px solid gray underline;
+ background: transparent;
+}
+.menu:focus{
+  border-bottom: 2px solid red underline;
+  color: red;
+}
+.menu:hover{
+  color: red;
+}
+.carousel-item{
+  margin-left: 25%;
+}
+.images{
+  height: 500px;
+  width: 100%;
+}
+.chef:hover{
+  transform: scale(1.1,1.1);
+  transition: 2s;
+}
+.hide{
+  display: none;
+}
+.chef:hover .hide{
+  display: block;
+}
+
+.contact{
+  height: 60px;
+  width: 60px;
+}
+.dropdown-menu{
+  margin-left: -150px;
+  width: max-content;
+}
